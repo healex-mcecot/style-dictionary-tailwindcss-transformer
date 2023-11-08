@@ -1,4 +1,4 @@
-import { camelCase } from 'camel-case'
+import camelCase from 'camelcase'
 import type { SdTailwindConfigType, TailwindOptions } from './types'
 
 type NestedObj<T extends Record<string, any>> = {
